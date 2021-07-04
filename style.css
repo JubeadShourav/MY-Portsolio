@@ -17,5 +17,28 @@ h3 {
 
 p {
     font-size: 18px;
-    color: rgb(13, 73, 36);
+    color: rgb(13, 73, 40);
+}
+
+.maintain {
+    width: 50%;
+    padding-left: 4%;
+}
+
+img {
+    height: 500px;
+    padding: 35px 10px 35px 70px;
+}
+
+.button {
+    color: springgreen;
+    text-decoration: none;
+    background-image: linear-gradient(rgb(12, 71, 128), rgb(9, 109, 122));
+    padding: 12px 40px;
+    border-radius: 10px;
+    font-weight: 800;
+}
+
+section {
+    display: flex;
 }
