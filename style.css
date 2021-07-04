@@ -1,3 +1,7 @@
+body {
+    margin: 0;
+}
+
 #font {
     font-family: 'Tourney', cursive;
     color: rgb(9, 77, 104);
@@ -41,4 +45,9 @@ img {
 
 section {
     display: flex;
+}
+
+.border {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
 }
