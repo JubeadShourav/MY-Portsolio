@@ -9,7 +9,7 @@ body {
 
 h1 {
     font-family: 'Zen Tokyo Zoo', cursive;
-    color: #00520e;
+    color: #5e3608;
     font-size: 45px;
 }
 
@@ -21,7 +21,11 @@ h3 {
 
 p {
     font-size: 18px;
-    color: rgb(13, 73, 40);
+    color: rgb(4, 116, 54);
+}
+
+span {
+    color: palegreen;
 }
 
 .maintain {
@@ -31,7 +35,7 @@ p {
 
 img {
     height: 500px;
-    padding: 35px 10px 35px 70px;
+    padding: 35px 10px 10px 70px;
 }
 
 .button {
@@ -43,11 +47,58 @@ img {
     font-weight: 800;
 }
 
-section {
+.shadow {
+    box-shadow: 10px 10px 40px rgb(179, 77, 77);
+    width: 50%;
+    margin: 2% 5% 5%;
+    border-radius: 10px;
+    padding: 20px;
+    height: 350px;
+}
+
+.exprnc {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    padding: 20px 10px;
+}
+
+#color {
+    border-left: 10px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+
+#color2 {
+    border-left: 10px solid;
+    border-image: linear-gradient(rgb(25, 153, 83), rgb(168, 73, 29));
+    border-image-slice: 2;
+}
+
+.xtra {
     display: flex;
+    padding-right: 5%;
+}
+
+footer {
+    text-align: center;
+    padding: 25px;
+    color: rgb(29, 211, 29);
+}
+
+h2 {
+    font-size: 40px;
+    font-family: 'Righteous', cursive;
+    color: rgb(10, 157, 177);
 }
 
 .border {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+
+.background {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
